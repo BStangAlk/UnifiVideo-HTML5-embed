@@ -14,8 +14,7 @@
 	  <ul class="nav navbar-nav">
 		<li <?php if ($basename == 'index') echo ' class="active"'; ?>><a href="index.php">Home</a></li>
 		<li <?php if ($basename == 'info') echo ' class="active"'; ?>><a href="info.php">Info</a></li>
-		<?php if ($auth == 'true') echo '<li><a href="logout.php">Logout</a></li>' ?>
-	</ul>
+	  </ul>
 	</div><!--/.nav-collapse -->
   </div>
 </nav>
